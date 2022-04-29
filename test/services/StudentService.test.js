@@ -22,4 +22,11 @@ describe('Unit test for StudentService class', () => {
 
     expect(certifiedStudents[0]).toStrictEqual(student1);
   });
+
+  test('Get a list of students that have enough credits', () => {
+    const studentsWithEnoughCredits =
+      StudentService.getStudentsOverEnoughCredits(500);
+
+    expect(studentsWithEnoughCredits[0]).toStrictEqual(student1);
+  });
 });
