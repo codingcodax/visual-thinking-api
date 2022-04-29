@@ -23,5 +23,8 @@
   "homepage": "https://github.com/codingcodax/visual-thinking-api#readme",
   "dependencies": {
     "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "jest": "^28.0.3"
   }
 }
