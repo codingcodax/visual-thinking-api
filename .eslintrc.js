@@ -5,11 +5,11 @@ module.exports = {
     es2021: true,
     jest: true,
   },
-  extends: "eslint:recommended",
-  parserOptions: { ecmaVersion: "latest" },
+  extends: 'eslint:recommended',
+  parserOptions: { ecmaVersion: 'latest' },
   rules: {
-    indent: ["error", "2"],
-    quotes: ["error", "single"],
-    semi: ["error", "always"],
+    indent: ['error', 2],
+    quotes: ['error', 'single'],
+    semi: ['error', 'always'],
   },
 };
